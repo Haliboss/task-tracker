@@ -33,7 +33,7 @@ const Home = () => {
   
 
   return (
-    <div>
+    <div className="mt-4 d-flex justify-content-center flex-column" >
       <Button
         onClick={(e) => {
           toggle();

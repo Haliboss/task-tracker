@@ -46,7 +46,7 @@ const Home = () => {
 
       {isOpen && <AddTask />}
 
-      <TaskList />
+      <TaskList task={task} />
     </div>
   );
 };
